@@ -70,7 +70,7 @@ class ContactForm extends Component {
         const data = {name, email, subject, events, message}
 
         const response = await axios.post(
-            "http://localhost:5000/api/contactus",data
+            "https://owano-email-handler.vercel.app/api/contactus",data
         )
 
         console.log(response.data)

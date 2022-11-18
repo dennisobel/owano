@@ -69,7 +69,7 @@ class Consulting extends Component {
     const data = {name, email, subject, events, message}
 
     const response = await axios.post(
-        "http://localhost:5000/api/freeconsult",data
+        "https://owano-email-handler.vercel.app/api/freeconsult",data
     )
 
     console.log(response.data)

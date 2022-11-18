@@ -70,7 +70,7 @@ class Consultinencey extends Component {
         const data = {name, email, subject, phone, message}
 
         const response = await axios.post(
-            "http://localhost:5000/api/paidconsult",data
+            "https://owano-email-handler.vercel.app/api/paidconsult",data
         )
 
         console.log(response.data)

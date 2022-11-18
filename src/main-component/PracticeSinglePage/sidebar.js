@@ -19,7 +19,7 @@ const ServiceSidebar = (props) => {
           };
       
           const response = await axios.post(
-            "http://localhost:5000/api/newsletter",
+            "https://owano-email-handler.vercel.app/api/newsletter",
             data
           );
           console.log(response.data);
