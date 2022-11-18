@@ -66,13 +66,14 @@ class Consulting extends Component {
       });
     }
 
-    const data = {name, email, subject, events, message}
+    const data = { name, email, subject, events, message };
 
     const response = await axios.post(
-        "https://owano-email-handler.vercel.app/api/freeconsult",data
-    )
+      "https://owano-email-handler.vercel.app/api/freeconsult",
+      data
+    );
 
-    console.log(response.data)
+    console.log(response.data);
   };
 
   render() {
@@ -124,11 +125,27 @@ class Consulting extends Component {
                             name="subject"
                           >
                             <option>Subject</option>
-                            <option>Family Law</option>
                             <option>Litigation & Dispute Resolution</option>
                             <option>Law of Contracts</option>
-                            <option>Education Law</option>
-                            <option>Business Law</option>
+                            <option>Conveyancing & Real Estate</option>
+                            <option>
+                              Employment, Labour, Pension & Retirement Benefit
+                              Schemes
+                            </option>
+                            <option>Corporate & Commercial Laws</option>
+                            <option>Family & Matrimonial Law</option>
+                            <option>Probate, Succession & Trust Laws</option>
+                            <option>Intellectual Property Rights</option>
+                            <option>
+                              Banking, Liquidation & Restructuring
+                            </option>
+                            <option>Project Finance & Insurance Laws</option>
+                            <option>
+                              Infrastructure, Construction & Energy Projects
+                            </option>
+                            <option>Tax Law</option>
+                            <option>Alternative Dispute Resolution</option>
+                            <option>Consultancy, Research & Development</option>
                           </select>
                           <p>{error.subject ? error.subject : ""}</p>
                         </div>
@@ -156,7 +173,8 @@ class Consulting extends Component {
               <div className="col-lg-6 col-md-12 col-12">
                 <div className="wpo-contact-content">
                   <h2>
-                    We are here to protect your rights and serve your needs with experience
+                    We are here to protect your rights and serve your needs with
+                    experience
                   </h2>
                   <div className="wpo-contact-content-inner">
                     <p>
