@@ -65,7 +65,7 @@ const PracticeSinglePage =(props) => {
                                         ))}
                                     </div>
                                 </div>
-                                <Benefits/>
+                                {/* <Benefits/> */}
                             </div>
                         </div>
                         <ServiceSidebar/>

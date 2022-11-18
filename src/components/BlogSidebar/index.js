@@ -110,8 +110,8 @@ const BlogSidebar = (props) => {
                     </ul>
                 </div>
                 <div className="wpo-contact-widget widget">
-                        <h2>How We Can <br/> Help You!</h2>
-                        <p>labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                        <h2>How Can We <br/> Help You!</h2>
+                        
                         <Link onClick={ClickHandler} to="/contact">Contact Us</Link>
                 </div>
             </div>

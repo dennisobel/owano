@@ -48,7 +48,7 @@ const caseSinglePage =(props) => {
                                     <li>You need to be sure there isn't anything embarrassing hidden.</li>
                                     <li>The generated Lorem Ipsum is therefore.</li>
                                 </ul>
-                                <Benefits/>
+                                {/* <Benefits/> */}
                                 <div className="pagi">
                                     <ul>
                                         <li><Link to="/">Previous</Link></li>

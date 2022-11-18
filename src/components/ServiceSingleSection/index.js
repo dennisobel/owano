@@ -30,7 +30,7 @@ const ServiceSingleSection = (props) => {
                                 </div>
                             </div>
                             <Solutions/>
-                            <Benefits/>
+                            {/* <Benefits/> */}
                         </div>
                     </div>
                     <ServiceSingleSidebar/>
