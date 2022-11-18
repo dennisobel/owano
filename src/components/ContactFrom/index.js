@@ -74,7 +74,7 @@ class ContactForm extends Component {
     const data = { name, email, subject, events, message };
 
     const response = await axios.post(
-      "https://owano-email-handler.vercel.app/api/contactus",
+      "https://owano.herokuapp.com/api/contactus",
       data
     );
 

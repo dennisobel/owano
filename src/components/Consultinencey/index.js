@@ -68,7 +68,7 @@ class Consultinencey extends Component {
     const data = { name, email, subject, phone, message };
 
     const response = await axios.post(
-      "https://owano-email-handler.vercel.app/api/paidconsult",
+      "https://owano.herokuapp.com/api/paidconsult",
       data
     );
 

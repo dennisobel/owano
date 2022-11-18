@@ -69,7 +69,7 @@ class Consulting extends Component {
     const data = { name, email, subject, events, message };
 
     const response = await axios.post(
-      "https://owano-email-handler.vercel.app/api/freeconsult",
+      "https://owano.herokuapp.com/api/freeconsult",
       data
     );
 
