@@ -28,7 +28,7 @@ const BlogSingle = (props) => {
             <div className="wpo-blog-content">
               <div className="post format-standard-image">
                 <div className="entry-media">
-                  <img src={BlogDetails.blogSingleImg} alt="" />
+                  <img src={BlogDetails.screens} alt="" />
                 </div>
                 <div className="entry-meta">
                   <ul>
@@ -94,19 +94,19 @@ const BlogSingle = (props) => {
                 <p><small>The Supreme Court of Appeal held that a person who has benefited through the enrichment of a company as a result of a crime in which that person has an interest will have indirectly benefited from that crime.<superscript>4</superscript></small></p>
                 <p>Our financial legal regime has been evolving from time to time as it seeks to incorporate the several new practices in financial laws aimed at stopping financial crimes and money laundering.</p>
 
-                <div className="gallery">
+                {/* <div className="gallery">
                   <div>
                     <img src={gl1} alt="" />
                   </div>
                   <div>
                     <img src={gl2} alt="" />
                   </div>
-                </div>
+                </div> */}
               </div>
 
               <div className="tag-share clearfix">
                 <div className="tag">
-                  <span>Share: </span>
+                  {/* <span>Share: </span> */}
                   <ul>
                     <li>
                       <Link to="/blog-single/1">Planning</Link>
@@ -201,7 +201,7 @@ const BlogSingle = (props) => {
                 </div>
               </div>
 
-              <div className="comments-area">
+              {/* <div className="comments-area">
                 <div className="comments-section">
                   <h3 className="comments-title">Comments</h3>
                   <ol className="comments">
@@ -382,7 +382,7 @@ const BlogSingle = (props) => {
                     </div>
                   </form>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           <BlogSidebar blLeft={props.blLeft} author={BlogDetails.author} authorImg={BlogDetails.authorImg} social={BlogDetails.social}/>
