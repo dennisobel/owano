@@ -16,12 +16,20 @@ import simg14 from "../images/service/rnd.jpg";
 import sSingleimg1 from "../images/service-single/2.jpg";
 import sSingleimg2 from "../images/service-single/3.jpg";
 
-import ins1 from "../images/instragram/14.jpg";
-import ins2 from "../images/instragram/13.jpg";
-import ins3 from "../images/instragram/15.jpg";
-import ins4 from "../images/instragram/16.jpg";
-import ins5 from "../images/instragram/17.jpg";
-import ins6 from "../images/instragram/18.jpg";
+import ins1 from "../images/service/inst/litigation.jpg";
+import ins2 from "../images/service/inst/contract-law.jpg";
+import ins3 from "../images/service/inst/realestate.jpg";
+import ins4 from "../images/service/inst/employment.jpg";
+import ins5 from "../images/service/inst/corporate.jpg";
+import ins6 from "../images/service/inst/family-law.jpg";
+import ins7 from "../images/service/inst/trust.jpg";
+import ins8 from "../images/service/inst/ip.jpg";
+import ins9 from "../images/service/inst/banking.jpg";
+import ins10 from "../images/service/inst/insurance.jpg";
+import ins11 from "../images/service/inst/infrastructure.jpg";
+import ins12 from "../images/service/inst/tax.jpg";
+import ins13 from "../images/service/inst/conflict.jpg";
+import ins14 from "../images/service/inst/rnd.jpg";
 
 const Services = [
   {
@@ -126,7 +134,7 @@ const Services = [
     icon: "fi flaticon-balance",
     ssImg1: sSingleimg1,
     ssImg2: sSingleimg2,
-    sinst: ins1,
+    sinst: ins7,
   },
   {
     Id: "8",
@@ -140,7 +148,7 @@ const Services = [
     icon: "fi flaticon-support",
     ssImg1: sSingleimg1,
     ssImg2: sSingleimg2,
-    sinst: ins2,
+    sinst: ins8,
   },
   {
     Id: "9",
@@ -154,7 +162,7 @@ const Services = [
     icon: "fi flaticon-house",
     ssImg1: sSingleimg1,
     ssImg2: sSingleimg2,
-    sinst: ins3,
+    sinst: ins9,
   },
   {
     Id: "10",
@@ -173,7 +181,7 @@ const Services = [
     icon: "fi flaticon-quotation",
     ssImg1: sSingleimg1,
     ssImg2: sSingleimg2,
-    sinst: ins4,
+    sinst: ins10,
   },
   {
     Id: "11",
@@ -187,7 +195,7 @@ const Services = [
     icon: "fi flaticon-house",
     ssImg1: sSingleimg1,
     ssImg2: sSingleimg2,
-    sinst: ins5,
+    sinst: ins11,
   },
   {
     Id: "12",
@@ -201,7 +209,7 @@ const Services = [
     icon: "fi flaticon-balance",
     ssImg1: sSingleimg1,
     ssImg2: sSingleimg2,
-    sinst: ins6,
+    sinst: ins12,
   },
   {
     Id: "13",
@@ -217,7 +225,7 @@ const Services = [
     icon: "fi flaticon-broken-arm",
     ssImg1: sSingleimg1,
     ssImg2: sSingleimg2,
-    sinst: ins5,
+    sinst: ins13,
   },
   {
     Id: "14",
@@ -234,7 +242,7 @@ const Services = [
     icon: "fi flaticon-balance",
     ssImg1: sSingleimg1,
     ssImg2: sSingleimg2,
-    sinst: ins6,
+    sinst: ins14,
   },
 ];
 export default Services;
