@@ -184,19 +184,19 @@ const BlogSingle = (props) => {
                 <div className="previous-post">
                   <Link to="/blog">
                     <span className="post-control-link">Previous Post</span>
-                    <span className="post-name">
+                    {/* <span className="post-name">
                       At vero eos et accusamus et iusto odio dignissimos ducimus
                       qui blanditiis praesentium.
-                    </span>
+                    </span> */}
                   </Link>
                 </div>
                 <div className="next-post">
                   <Link to="/blog-left-sidebar">
                     <span className="post-control-link">Next Post</span>
-                    <span className="post-name">
+                    {/* <span className="post-name">
                       Dignissimos ducimus qui blanditiis praesentiu deleniti
                       atque corrupti quos dolores
-                    </span>
+                    </span> */}
                   </Link>
                 </div>
               </div>
