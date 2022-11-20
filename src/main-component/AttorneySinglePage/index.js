@@ -96,7 +96,7 @@ const AttorneySinglePage = (props) => {
               <div className="col-lg-12">
                 <div className="exprience-wrap">
                   <h2>Professional Experience</h2>
-                  <p>{AttorneysDetails.experienceDesc}</p>
+                  <p dangerouslySetInnerHTML={{__html: AttorneysDetails.experienceDesc}}/>
                 </div>
                 <div className="wpo-contact-area ex-wiget">
                   {/* <h2>Contact Me</h2> */}
