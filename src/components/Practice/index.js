@@ -82,7 +82,7 @@ const Practice = (props) => {
                                                     {/* <img src={service.sImg} alt=""/> */}
                                                     <div className="service-data-text">
                                                         <h3><Link onClick={ClickHandler} to={`/practice-single/${service.Id}`}>{service.sTitle}</Link></h3>
-                                                        <p>{service.description}</p>
+                                                        <p align="justify" dangerouslySetInnerHTML={{__html: service.description}}/>
                                                     </div>
                                                 </div>
                                             </div>

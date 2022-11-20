@@ -35,7 +35,6 @@ const Contactpage = () => {
                     <div className="office-info-text">
                       <h2>Email Us</h2>
                       <p>inquiry@owanoandassociates.co.ke</p>
-                      <p>helloyou@gmail.com</p>
                     </div>
                   </div>
                 </div>

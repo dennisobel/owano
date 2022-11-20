@@ -57,7 +57,19 @@ const About = [
         Id: '4',
         sImg:simg4,
         sTitle: 'Guiding Principles',
-        description:'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo ',
+        description:`
+        <h4>Integrity</h4>
+        “Doing the right thing” is not just a common phrase for us, it is a primary guide for all our actions.
+        <h4>Innovation</h4>
+        We grow by developing and adapting to new tools and ideas to drive efficiencies for our clients.
+        <h4>Collegiality and Collaboration</h4>
+        Our people are our greatest asset. We maintain a culture of decency, friendship and genuinely respect, appreciate and care about each other, and that includes actively and consistently promoting and encouraging help-seeking and self-care.
+        <h4>Diversity and Inclusion</h4>
+        We endeavor to maintain a diverse and inclusive workspace that builds different perspective, yielding more creativity and better results and favorable outcome for our clients and the firm. Our environment is free from all forms of discrimination and also celebrate the broadest possible spectrum of viewpoints, backgrounds and beliefs.
+        <h4>Excellence</h4>
+        We are cognizant that our clients must have total trust and confidence in us. We capitalize on our strengths and how to best leverage them for our clients.
+
+        `,
         des2:'The lower-numbered purposes are better understood and practiced',
         des3:'One way to categorize the activities is in terms of the professional’s area of expertise such as competitive analysis, corporate strategy the activities',
         icon:'fi flaticon-graduation-cap',
