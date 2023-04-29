@@ -73,8 +73,8 @@ const Attorneys = [
        experienceDesc:`
        <h5>LL.B Hons (CUEA), PGD Law (KSL).</h5>
 
-       <p>Mendi is an advocate of the High Court of Kenya having been admitted to the bar. She is an Associate in the Commercial and Conveyancing Department.</p>
-       <p>She is knowledgeable in:</p>
+       <p>Mendi is an advocate of the High Court of Kenya having been admitted to the bar. She is an Associate in the Commercial and Conveyancing Department.
+       She is knowledgeable in:</p>
        <ul>
        <li> -  <small>Civil law.</small></li>
        <li> -  <small>Conveyancing and Property law.</small></li>
