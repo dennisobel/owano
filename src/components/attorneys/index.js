@@ -25,7 +25,8 @@ const Attorney = (props) => {
         const lastName = nameArray[nameArray.length - 1];
         const fullName = `${firstName} ${lastName}`.toLowerCase()
         
-        return fullName === query.toLowerCase();
+        // return fullName === query.toLowerCase();
+        return firstName.toLowerCase() === query.toLowerCase() || lastName.toLowerCase() === query.toLowerCase();
         
       }
     );
