@@ -18,7 +18,7 @@ const About = [
         Id: '1',
         sImg:simg,
         sTitle: 'Introduction',
-        description:`Owano & Associates Advocates is a Legal and Consulting Firm established in the year 2019 with its offices in Nairobi Kenya and collaborations countrywide. 
+        description:`Owano & Associates Advocates is a duly recognized and registered law practice with its offices in Nairobi, Kenya and collaborations across Africa, Europe and the UAE. 
         Owano & Associates Advocates aims to provide superior and efficient solutions to our clients and their businesses through our multi-disciplinary approach that draws upon the collective knowledge and resources of each relevant practice area across our different backgrounds as appropriate, to achieve efficient, effective and practical results for our clients.  
         Furthermore, Owano & Associates Advocates has established solid contacts with a number of International Legal experts both in Kenya and abroad with a working understanding to avail Consultants and/or collaborate in specialized areas so as to ensure adherence to best practices and in turn, the best service approach to our clients.
         `,
